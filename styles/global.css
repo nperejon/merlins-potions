@@ -1,0 +1,14 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'droid_serif', Arial, Helvetica, sans-serif;
+}
+
+.mobile{
+  display: none;
+}
+
+@media screen and (max-width: 900px){
+  .desktop{ display: none !important; }
+  .mobile{ display: block; }
+}

@@ -1,0 +1,65 @@
+/* Potions Section */
+#potions{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.potions-title{
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+#potions .grid {
+  align-self: center;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 300px));
+  grid-gap: 20px;
+}
+
+#potions .grid .potion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#potions .grid .potion img{
+  width: auto;
+  max-width: 100%;
+}
+
+#potions .grid .potion .info{
+  display: flex;
+  flex-direction: column;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#potions .grid .potion .info .name{
+  font-weight: bold;
+}
+
+#potions .grid .potion .info .price{
+  color: var(--prices-color);
+}
+
+@media screen and (max-width: 900px){
+  .potions-title{
+    text-align: center;
+    padding-left: 0;
+  }
+
+  #potions .grid{
+    grid-template-columns: repeat(2, minmax(0, 300px));
+  }
+}

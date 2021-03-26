@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merlin's Potions</title>
+  <!--Styles-->
+  <link rel="stylesheet" href="./styles/reset.css" type="text/css">
+  <link rel="stylesheet" href="./styles/root.css" type="text/css">
+  <link rel="stylesheet" href="./styles/fonts.css" type="text/css">
+  <link rel="stylesheet" href="./fa/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="./styles/global.css" type="text/css">
+  <link rel="stylesheet" href="./styles/header.css" type="text/css">
+  <link rel="stylesheet" href="./styles/potions-grid.css" type="text/css">
+  <link rel="stylesheet" href="./styles/footer.css" type="text/css">
+  <link rel="stylesheet" href="./styles/lightbox.css" type="text/css">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <section id="top">
+      <i class="ham fas fa-bars mobile"></i>
+      <hgroup class="logo">
+        <h1>Merlin's <span>Potions</span></h1>
+        <h2>fine potions since 1026</h2>
+      </hgroup>
+      <div class="search-box desktop"><i class="fas fa-search"></i> <input type="text" placeholder="Search our stock" /></div>
+      <div class="shopping">
+        <span class="shipping">Free shipping<br /> <span class="desc">on orders over $50</span></span>
+        <img src="./assets/bag.png" class="bag" alt="Bag" />
+        <div class="count">Bag: <span class="num">1</span></div>
+      </div>
+    </section>
+    <section id="menu" class="desktop">
+      <nav>
+        <ul>
+          <li><a href="#">Potions <i class="fas fa-sort-down desktop"></i></a></li>
+          <li><a href="#">Ingredients <i class="fas fa-sort-down desktop"></i></a></li>
+          <li><a href="#">Books <i class="fas fa-sort-down desktop"></i></a></li>
+          <li><a href="#">Supplies <i class="fas fa-sort-down desktop"></i></a></li>
+          <li><a href="#">Charms <i class="fas fa-sort-down desktop"></i></a></li>
+          <li class="selected"><a href="#">Clearance!</a></li>
+        </ul>
+        <div class="sign">
+          <a href="#" class="in">Sign In</a>
+          or
+          <a href="#" class="up">Sign Up</a>
+        </div>
+      </nav>
+    </section>
+  </header>
+  <h4 class="potions-title">Potions</h4>
+  <section id="potions">
+    <div class="grid"></div>
+  </section>
+  <footer>
+    <div class="content">
+      <div class="more">
+        <div class="menu desktop">
+          <ul>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>    
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-tumblr"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+        <p>&copy 2015 Merlin's Potions. All Rights Reserved</p>
+      </div>
+      <div class="newsletter">
+        <p>Sign up for our Newsletter</p>
+        <p>Sign up for our newsletter & get exclusive discounts!</p>
+        <form>
+          <input type="email" placeholder="Enter your email." required />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </footer>
+  <div class="lightbox">
+    <div class="box">
+      <span class="close">X</span>
+      <img />
+      <div class="info">
+        <h5 class="name"></h5>
+        <h5>Use/Effect:</h5>
+        <p class="use-effect"></p>
+        <h5>Ingredients:</h5>
+        <p class="ingredients">
+        </p>
+        <h5>Price:</h5>
+        <p class="price"></p>
+        <button class="cart">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts/menu.js"></script>
+  <script src="./scripts/lightbox.js"></script>
+</body>
+</html>
