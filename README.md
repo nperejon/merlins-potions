@@ -2,6 +2,9 @@
 
 Código criado como teste para verificação do código e avaliação de conhecimento.
 
+## Tecnologias Utilizadas
+- HTML, CSS e Javascript
+
 ## 🎯 Objetivo
 O objetivo da aplicação é trazer uma lista de poções armazenadas em uma lista presente no arquivo _potions.json_ na pasta _data_.
 Os objetos de poções serão tratados e fornecidos para o usuário através de javascript em _index.html_.
