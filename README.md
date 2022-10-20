@@ -2,7 +2,7 @@
 
 Código criado como teste para verificação do código e avaliação de conhecimento.
 
-## Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 - HTML, CSS e Javascript
 
 ## 🎯 Objetivo
